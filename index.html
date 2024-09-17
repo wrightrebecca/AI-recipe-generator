@@ -7,19 +7,22 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <h1>AI Recipe Generator</h1>
+    <div class="container">
+      <h1>AI Recipe Generator</h1>
 
-    <form>
-      <input
-        type="text"
-        placeholder="What ingredient do you want to cook
-      with?"
-        autofocus
-        required
-      />
-      <input type="submit" />
-    </form>
-    <div id="recipe-result">Your recipe goes here!</div>
+      <form>
+        <input
+          class="search-input"
+          id="search-input"
+          type="text"
+          placeholder="What ingredient do you want to cook with?"
+          autofocus
+          required
+        />
+        <input class="search-button" id="search-button" type="submit" />
+      </form>
+      <div class="recipe-result" id="recipe-result">Your recipe goes here!</div>
+    </div>
     <footer>
       This page was coded by
       <a href="https://github.com/wrightrebecca" target="_blank"
