@@ -16,6 +16,9 @@ function generateRecipe(event) {
     "You are an experienced chef who knows every recipe. You will provide a short recipe which incorporates an ingredient that the user has requested. You will provide the recipe in HTML, for example <h1> Tomato pasta </h1>. Do not include '``` html'. Sign 'SheCodes AI' at the end, in <strong>.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let recipeResultElement = document.querySelector("#recipe-result");
+  recipeResultElement.classList.remove("hidden");
+
   axios.get(apiUrl).then(displayRecipe);
 }
 
