@@ -4,7 +4,7 @@ function generateRecipe(event) {
   new Typewriter("#recipe-result", {
     strings: "Here is a recipe that uses halloumi...",
     autoStart: true,
-    delay: "natural",
+    delay: 55,
   });
 }
 
