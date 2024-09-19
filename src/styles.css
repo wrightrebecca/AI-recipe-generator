@@ -19,17 +19,40 @@ body {
 h1 {
   font-size: 45px;
 }
+.forms {
+  background: #e9e6e1;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #e9e6e1;
+  max-width: 650px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+.example {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 68px;
+  color: grey;
+}
+
 .search-input {
   width: 400px;
   padding: 15px;
   background: #e9e6e1;
   border-radius: 4px;
   font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .search-button {
   padding: 15px;
   border-radius: 4px;
   font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .recipe-result {
   display: block;
